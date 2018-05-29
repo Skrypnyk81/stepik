@@ -1,2 +1,2 @@
-# stepik-matrix
-Lavoro su matrice nel corso python Stepik
+# stepik
+Мои скрипты на онлайн курсе степик.орг
