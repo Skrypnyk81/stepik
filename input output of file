@@ -10,4 +10,7 @@ for i in S:
 			D = []
 		C.append(i)
 N.append(int("".join(D)))
-''.join(c * n for c, n in zip(C, N))
+Sol=(''.join(c * n for c, n in zip(C, N)))
+
+with open('solution.txt', 'w') as ouf:
+    ouf.write(Sol)
