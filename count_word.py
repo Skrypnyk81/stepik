@@ -1,6 +1,6 @@
 import collections as cl
 with open('dataset_3363_3.txt') as word:
-    S = word.readline().lower().replace('\n', ' ').split()
+    S = word.read().lower().replace('\n', ' ').split()
 
 cnt = cl.Counter()
 for word in S:
