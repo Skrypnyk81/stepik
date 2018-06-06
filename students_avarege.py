@@ -15,5 +15,5 @@ avr_S = (sum(S) / len(S))
 avr_T = (sum(T) / len(T))
 tot_avr = str(avr_P) + ' ' + str(avr_S) + ' ' + str(avr_T)
 with open('solution_4.txt', 'w') as word:
-    for i in C: word.writeline(i)
+    for i in C: word.write(str(i) + '\n')
     word.write(str(tot_avr))
