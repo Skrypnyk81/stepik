@@ -1,2 +1,2 @@
 # stepik
-Мои скрипты на онлайн курсе степик.орг
+My scripts from Stepik.org
